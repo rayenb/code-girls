@@ -1,0 +1,85 @@
+/*toda la pagina*/
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+section {
+	padding: 5%;
+}
+.btn {
+	background-color: #3A69A5;
+	color: white;
+	border: none;
+}
+/*header navegador que responsivamente se convierte en menu de hamburguesa*/
+header {
+	background-color: #F7F7F7;
+	padding: 1%;
+	color: #758090;
+}
+a {
+	color: #758090;
+}
+a:hover {
+	text-decoration: none;
+	background-color: #E1E2E1;
+	padding: 25% 2%;
+}
+@media (max-width: 767px) {
+	nav {
+		display: none;
+	}
+}
+i {
+	margin-top: -5%
+}
+/*section uno, home con imagen de fondo*/
+.home {
+	background-image: url(../img/home.jpg);
+	padding: 15%;
+	background-size: cover;
+}
+.home h1 {
+	color: white;
+}
+/*section video dos columnas*/
+iframe {
+	width: 100%;
+}
+.video h3,h4 {
+	margin-bottom: 5%;
+}
+
+/*section inscribete dos columnas*/ 
+.inscribete {
+	background-color: #FFF835;
+}
+.inscribete h3 {
+	margin-bottom: 5%;
+}
+.hackathon {
+	padding: 3%;
+}
+/*section contacto  imagen y formulario */
+.contacto ul {
+	margin-bottom: 5%;
+}
+input {
+	margin: -2%;
+}
+.mensaje {
+	padding-bottom: 30%;
+	padding-top: 3%;
+}
+
+/*footer y fin de pagina*/
+footer {
+	background-color: #4D8490;
+	padding: 2%;
+	color: white;
+}
+footer span {
+	color: yellow;
+}
+
+ 
+ 
